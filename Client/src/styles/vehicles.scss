@@ -1,0 +1,27 @@
+form {
+  padding-left: 50px;
+  width: 250px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+/* ********************* */
+br.clear {
+  clear: both;
+  margin-top: -15px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}

@@ -1,0 +1,110 @@
+$text1: #f1356d;
+
+.container {
+  position: relative;
+  /* box-shadow: 10px 5px 5px black; */
+  margin: 20px;
+  width: 100%;
+}
+
+
+
+// .container{
+//      margin: auto;
+//     padding-top: 8px;
+//     // border: 5px solid rgb(64, 64, 64);
+//     box-shadow: 4px 3px 8px 1px #969696;
+//     width: 90%;
+// }
+
+.carimage {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.textblock {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 40px;
+  color: rgb(245, 45, 45);
+}
+
+.imagetext {
+  color: $text1;
+  font-size: 5vw;
+  width: 80%;
+}
+
+.services {
+  width: 98%;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.complexservices {
+  width: 50%;
+  margin-right: 0;
+}
+
+.homeservices {
+  display: flex;
+  justify-content: center;
+}
+
+.servicehomepage {
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  height: auto;
+  overflow: auto;
+  display: flex;
+}
+
+.serviceimagehome {
+  width: 20%;
+  height: 20%;
+  float: left;
+  background-size: cover;
+  border-radius: 15px;
+  transition: 0.5s all ease-in-out;
+  overflow: hidden;
+}
+
+.home {
+  ///////////////////////////////////////////////////////////////////////////////
+  // background-color: #d3d2d2;
+  align-content: center;
+}
+
+.CardDiv {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 20px;
+  margin: auto;
+  place-items: center;
+}
+
+#homeimage1 {
+  text-align: right;
+  background-color: $text1;
+  border-radius: 12px;
+}
+
+#servicetext {
+  width: 30%;
+  align-self: center;
+}
+
+#divtext {
+  width: 30%;
+}
+
+#footertext {
+  font-size: 2vw;
+}
